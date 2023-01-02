@@ -1,0 +1,92 @@
+h1{
+	text-align: center;
+	font-family: papyrus;
+}
+.robot{
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+.head,.leftarm,.torso,.rightarm,.leftleg,.rightleg{
+	background-color: lightgreen;
+}
+.head{
+	width: 200px;
+	margin: 0px auto;
+	height: 150px;
+	border-radius: 200px 200px 0 0;
+	margin-bottom: 10px;
+}
+.eyes{
+	display: flex;
+}
+.head:hover{
+	width: 300px;
+	transition: 1s ease-in-out;
+}
+.upperbody{
+	width: 300px;
+	height: 150px;
+	display: flex;
+}
+.leftarm,.rightarm{
+	width: 40px;
+	height: 125px;
+	border-radius: 100px;
+}
+.leftarm{
+	margin-right: 10px;
+}
+.rightarm{
+	margin-left: 10px;
+}
+.torso{
+	width: 200px;
+	height: 200px;
+	border-radius: 0 0 50px 50px;
+}
+.lowerbody{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	display: flex;
+}
+.leftleg,.rightleg{
+	width: 40px;
+	height: 120px;
+	border-radius: 0 0 100px 100px;
+}
+.leftleg{
+	margin-left: 45px;
+}
+.leftleg:hover{
+	transform: rotate(20deg);
+}
+.rightleg:hover{
+	transform: rotate(340deg);
+}
+.leftarm:hover{
+	transform: rotate(20deg);
+}
+.rightarm:hover{
+	transform: rotate(340deg);
+}
+.rightleg{
+	margin-left: 30px;
+}
+.lefteye,.righteye{
+	width: 20px;
+	height: 20px;
+	border-radius: 15px;
+	background-color: white;
+}
+.lefteye{
+	position: relative;
+	top: 100px;
+	left: 40px;
+}
+.righteye{
+	position: relative;
+	top: 100px;
+	left: 120px;
+}
